@@ -77,6 +77,8 @@ class About(Screen):
 			BoxName = "XCORE Spycat"
 		elif boxtype == 'quadbox2400':
 			BoxName = "AX Quadbox HD2400"
+		elif boxtype == 'vusolo2':
+			BoxName = "Vuplus Solo2"
 		else:
 			BoxName = about.getHardwareTypeString()
 
@@ -316,8 +318,8 @@ class CommitInfo(Screen):
 		self.project = 0
 		self.projects = [
 			#("organisation",  "repository",           "readable name",                "branch"),
-			("openmips",      "stbgui",               "openMips Enigma2",             "6.1"),
-			("openmips",      "skin-pax",             "openMips Skin GigaBlue Pax",   "master"),
+			("openTs-image",      "stbgui",               "openTs Enigma2",             "2.0"),
+			("openTs-image",       "Ts-MetrixHd",         "opents Skin",             "master"),
 			("oe-alliance",   "oe-alliance-core",     "OE Alliance Core",             "4.1"),
 			("oe-alliance",   "oe-alliance-plugins",  "OE Alliance Plugins",          "2.3"),
 			("oe-alliance",   "enigma2-plugins",      "OE Alliance Enigma2 Plugins",  "services-removed")
