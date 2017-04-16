@@ -1,5 +1,5 @@
-DESCRIPTION = "openMips based on openPLi E2 is an experimental, but useful framebuffer-based frontend for DVB functions"
-MAINTAINER = "openMips team"
+DESCRIPTION = "openTS based on openPLi E2 is an experimental, but useful framebuffer-based frontend for DVB functions"
+MAINTAINER = "ostende"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=751419260aa954499f7abaabaa882bbe"
 
@@ -8,8 +8,8 @@ inherit gitpkgv externalsrc
 S = "${FILE_DIRNAME}"
 WORKDIR = "${S}/build"
 
-PV = "6.0+git"
-PKGV = "6.0+git${GITPKGV}"
+PV = "2.0+git"
+PKGV = "2.0+git${GITPKGV}"
 PR = "r0"
 
 FILES_${PN} += "${datadir}/keymaps"
